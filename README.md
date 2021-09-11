@@ -1,2 +1,42 @@
 # machine-learning-courswork
-course projects for the UCLA Com Sci course entitled "Intro to Machine Learning"
+- course projects for the UCLA Com Sci course entitled "Intro to Machine Learning"
+- [project_1: Decision Trees, Nearest Neighbors](https://github.com/jpicchi18/machine-learning-cwk/tree/main/project_1)
+  - analyzing splitting heuristics for decision trees
+  - information gain based on entropy of a Bernoulli random variable
+  - choosing the number of nearest neighbors to consider in k-nearest neighbors classification
+  - using decision trees and k-nearest neighbor models to predict personal income from demographic factors
+    - trained on US census bureau data
+    - scikit-learn
+    - visualizing learning curves
+    - cross-validation
+- [project_2: Perceptron and Regression](https://github.com/jpicchi18/machine-learning-cwk/tree/main/project_2)
+  - determining weights and bias terms for perceptron models
+  - minimizing the objective function in logistic regression using the Hessian
+  - optimizing the log likelihood function to generate a maximum likelihood estimator for logistic regression
+  - performing multidimensional polynomial regression
+    - with and without scikit-learn
+    - closed-form solution
+    - numerical estimation methods (gradient descent to minimize a cost function)
+- [project_3: Deep Learning, Learning Theory, and Kernels](https://github.com/jpicchi18/machine-learning-cwk/tree/main/project_3)
+  - analyzing the VC-dimension of a hypothesis space
+  - constructing kernel functions, and selecting appropriate kernel functions for a given problem domain
+  - constructing maximum-margin Support-Vector Machine classifiers
+    - theory and implementation
+  - implemented a digital image recognizer
+    - analyzed one layer vs two layer neural network performance
+    - pytorch
+    - tensorflow
+    - analyzed stochastic gradient descent vs batch gradient descent
+    - Adam optimize
+- [project_4: Boosting, Boostrapping, Unsupervised Learning](https://github.com/jpicchi18/machine-learning-cwk/tree/main/project_4)
+  - Ensemble methods (AdaBoost and its cost function)
+  - K-means clustering for single-dimensional data
+    - and analysis of Lloyd's algorithm
+  - Gassian Mixture Models with varying numbers of mixture components
+    - calculating the max likelihood estimate of all parameters
+    - EM Algorithm
+  - implemented facial recognition models using clustering
+    - Labeled Faces in the Wild (LFW) dataset
+    - dimensionality reduction with Principal Component Analysis (PCA)
+    - generated K-Means and K-Medoids clustering models
+    - plotted classified data with Matplotlib
